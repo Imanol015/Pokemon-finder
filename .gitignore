@@ -1,0 +1,4 @@
+pokemon_finder/pokemon_finder/__pycache__/*.pyc
+pokemon_finder/apps/finder/__pycache__/*.pyc
+pokemon_finder/apps/finder/modules/__pycache__/*.pyc
+pokemon_finder/apps/finder/migrations/__pycache__/*.pyc
