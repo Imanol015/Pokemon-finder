@@ -1,8 +1,8 @@
 # Pokemon-finder
 ## Requisitos para levantar el projecto
-*Python 3.8.1  instalado.
-*Django 3.1.6  instalado.
-*Conexion a internet. Debido a Django y su manejo de archivos estaticos, la pagina utiliza recursos de internet.
+* Python 3.8.1  instalado.
+* Django 3.1.6  instalado.
+* Conexion a internet. Debido a Django y su manejo de archivos estaticos, la pagina utiliza recursos de internet.
 
 ## Pasos para levantar el projecto.
 1- Desde un terminal bash, estando situado en Pokemon_finder/pokemon_finder (el primero es el repositorio en si, el segundo es el projecto de Django)
