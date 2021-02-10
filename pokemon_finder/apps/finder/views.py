@@ -16,3 +16,12 @@ def home(request):
     search_result=make_query(user_entry, last_pokemon)  
 
     return render(request,"home/home.html",{"suggestions": suggestions , "last_pokemon":search_result[-1]["name"] , "search_result":search_result })
+
+
+
+def pokemon_profile(request,pokemon_name):
+    """
+        Se encarga de renderizar el profile del pokemon
+    """
+    search_result=make_query(pokemon_name,extended_version=True)
+    return render(request,"pokemon_profile/pokemon_profile.html",{"search_result":search_result })

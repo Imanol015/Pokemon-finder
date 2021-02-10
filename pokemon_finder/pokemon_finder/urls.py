@@ -20,5 +20,7 @@ from apps.finder import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path("",views.home)
+    path("",views.home),
+    path("profile/<str:pokemon_name>",views.pokemon_profile),
+    
 ]
