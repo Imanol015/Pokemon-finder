@@ -6,8 +6,6 @@ def home(request):
     """
         Se encarga de renderizar la pagina principal y obtener los datos de entrada del usuario
     """
-    #return redirect("http://127.0.0.1:8000/pokemons_consultant/"+pokemon_data+"/")
-
     user_entry= request.GET.get("search_bar") if "search_bar" in request.GET else None    #Obtiene la palabra ingresada por el usuario siempre y cudo este en el request
     
     suggestions=make_suggestion(listar=True)    #Obtiene la lista de todos los pokemons
